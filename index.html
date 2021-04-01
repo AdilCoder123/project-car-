@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("car.gif");
+    background-position: center;
+    background-size: cover;
+}
+#mycanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h2,h3
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Car race to death </title>
+</head>
+<body onload="Add()"> 
+<center>
+<h1>Car racing game</h1>
+<h2>Two cars can be controlled use arrow keys to cantrol car 1 and wasd to control car2</h2>
+<h3 id="game">Game status: <span id="gamestatus"></span></h3>
+<canvas id="mycanvas" width="800" height="600">
+
+</canvas>
+<h4>
+	<b class="text-danger">NOTE : </b> IF car IS NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
